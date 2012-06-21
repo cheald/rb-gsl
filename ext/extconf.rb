@@ -234,8 +234,8 @@ begin
   RB_GSL_CONFIG.printf("\n#endif\n")
   RB_GSL_CONFIG.close
 
-# rescue
-#   raise("Check GSL>=0.9.4 is installed, and the command \"gsl-config\" is in search path.")
+ rescue
+   raise("Check GSL>=0.9.4 is installed, and the command \"gsl-config\" is in search path.")
 end
 
 #narray_config = dir_config("narray")
